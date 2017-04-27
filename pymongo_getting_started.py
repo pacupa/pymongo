@@ -16,7 +16,5 @@ item = names.find_one()
 
 print(item['nombre'])
 
-#ejemplo
-
-
+#ejemplo. add
 
