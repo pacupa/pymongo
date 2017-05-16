@@ -5,7 +5,6 @@ import pymongo
 # this is the handler for the default path of the web server
 
 @bottle.route('/')
-
 def index():
     
     # connect to mongoDB
@@ -24,6 +23,6 @@ def index():
     return '<b>Hello %s!</b>' % item['nombre']
 
 
- 
+
 
 bottle.run(host='localhost', port=8082)
