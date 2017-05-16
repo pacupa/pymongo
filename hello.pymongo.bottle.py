@@ -23,6 +23,4 @@ def index():
     return '<b>Hello %s!</b>' % item['nombre']
 
 
-
-
 bottle.run(host='localhost', port=8082)
